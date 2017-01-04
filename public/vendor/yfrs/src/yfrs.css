@@ -1,0 +1,14 @@
+/*input 验证错误样式*/
+input.error{ 
+	background-color:#fbe2e2;
+	border-color:#c66161;
+	color:#c00;
+}
+/*label验证错误样式*/
+label.error{
+   position: absolute;
+   right: 22px;
+   top: 32px;
+   color: #ef392b;
+   font-size: 12px;
+}

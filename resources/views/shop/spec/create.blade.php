@@ -1,6 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
+    <style type="text/css">
+        
+    </style>
     <section class="content-header">
         <h1>
             Spec
@@ -12,7 +15,7 @@
 
             <div class="box-body">
                 <div class="row">
-                    {!! Form::open(['url' => 'specs']) !!}
+                    {!! Form::open(['url' => 'specs','id'=>'spec-form']) !!}
 
                     @include('shop.spec.spec_fields')
 
@@ -22,3 +25,8 @@
         </div>
     </div>
 @endsection
+@push('scripts')
+   <script type="text/javascript">
+
+    </script>
+@endpush

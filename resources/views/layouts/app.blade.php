@@ -13,7 +13,7 @@
 
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-
+    <link rel="stylesheet" href="{{asset('vendor/yfrs/src/yfrs.css')}}">
     @yield('css')
 </head>
 
@@ -150,6 +150,10 @@
             base: '{{asset('/vendor/layui/src/lay/modules')}}/' //你的模块目录
         }).use('index'); //加载入口
     </script>
-
+    <script src="{{asset('vendor/jquery-validation/src/jquery.validate.js')}}"></script>
+    <script src="{{asset('vendor/jquery-validation/src/message_zh.js')}}"></script>
+    <script src="{{asset('vendor/yfrs/src/yfrs.js')}}"></script>
+    <script src="{{asset('vendor/yfrs/src/validate.js')}}"></script>
+    @stack('scripts')
 </body>
 </html>
