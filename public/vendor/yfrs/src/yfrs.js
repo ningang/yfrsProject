@@ -569,6 +569,7 @@
     };
     w.yfrs = Nw;
 }(window);
+
 // jquery-validate
 yfrs.extend({
     validate:function(dom,rules,messages){

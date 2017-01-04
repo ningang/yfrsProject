@@ -35,7 +35,8 @@ class SpecController  extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $input = $request->all();
+        
     }
 
     /**
